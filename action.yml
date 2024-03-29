@@ -1,0 +1,7 @@
+name: Fail
+description: Fails with exit 1
+runs:
+  using: "composite"
+  steps:
+    - name: Fail
+      run: exit 1
